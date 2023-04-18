@@ -1,0 +1,82 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+.Search {
+	display: grid;
+	place-content: center;
+	max-width: 30em;
+	max-height: 100vh;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 30em;
+	min-width: 10em;
+	place-items: center;
+	border-radius: 8px;
+	border: 1px solid #646cff;
+	padding: 0.6em 1.2em;
+	margin-bottom: 1em;
+}
+form input {
+	font-size: 1em;
+}
+form label p {
+	margin: 0.6em 0;
+}
+form button {
+	margin: 0.6em 0;
+	min-width: 10em;
+}
+.Content {
+	height: 75vh;
+	border-radius: 8px;
+	border: 1px solid #646cff;
+	padding: 0.6em 1.2em;
+}
+.Content button {
+	width: 90%;
+	margin: 0.5em 0;
+}
+
+.User {
+	text-align: left;
+	padding-top: 0.5em;
+}
+.User div {
+	display: flex;
+	place-items: left center;
+}
+.User div p {
+	display: inline;
+	margin: 0;
+	margin-top: 0.5em;
+	margin-left: 1em;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.User img {
+	width: 5em;
+}
+
+.Repo {
+	height: 48vh;
+	text-align: left;
+}
+.Repo ul {
+	margin: 0;
+	height: 42vh;
+	overflow-y: scroll;
+}
+
+.Active {
+	display: block;
+}
+.Inactive {
+	display: none;
+}
